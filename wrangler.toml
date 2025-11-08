@@ -1,8 +1,15 @@
-name = "sub-worker"
+name = "cf-worker-pages" # todo
+#name = "cf-worker-connect-test" # todo
+#main = "test/worker/cf-cdn-cgi-trace2.js"
+#main = "test/worker/worker-connect-test.js"
 main = "_worker.js"
-compatibility_date = "2025-07-23"
-keep_vars = true
+compatibility_date = "2023-05-26"
 
-#[[kv_namespaces]]
-#binding = "KV"			#KV绑定名默认不可修改
-#id = "7dbef248fcc547d39689967f91f5f46f"					#KV据库id
+[vars]
+# UUID = "c0993823-451a-4ee2-9cea-3d5c03b1f3a0"
+# PROXYIP = "1.2.3.4"
+# DNS_RESOLVER_URL = "https://cloudflare-dns.com/dns-query"
+# NODE_ID = "1"
+# API_TOKEN = "example_dev_token"
+# API_HOST = "api.v2board.com"
+UUID = "d95c94d2-3e11-4dc8-9daf-d44cb1c1a4960"
