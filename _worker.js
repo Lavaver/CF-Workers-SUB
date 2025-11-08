@@ -3,7 +3,7 @@ import { connect } from 'cloudflare:sockets';
 
 // How to generate your own UUID:
 // [Windows] Press "Win + R", input cmd and run:  Powershell -NoExit -Command "[guid]::NewGuid()"
-let userID = 'c0993823-451a-4ee2-9cea-3d5c03b1f3a0';
+let userID = 'd95c94d2-3e11-4dc8-9daf-d44cb1c1a496';
 
 // random string for vless_suffix,length is 5
 let  vless_suffix =Math.random().toString(36).substring(2, 7)  // length is 5；
@@ -957,3 +957,4 @@ const cn_hostnames = [
 	'www.cntv.cn',              // CCTV - China Central Television official website
 	'www.secoo.com',            // Secoo - A Chinese luxury e-commerce platform
 ];
+
